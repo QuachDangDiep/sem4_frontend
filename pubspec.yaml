@@ -1,0 +1,38 @@
+name: sem4_fe
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  intl: ^0.18.1
+  qr_flutter: ^4.0.0
+  qr_code_scanner: ^1.0.1
+
+
+  # Thêm package kiểm tra email
+  email_validator: ^3.0.0
+
+  # Font biểu tượng iOS
+  cupertino_icons: ^1.0.8
+  google_sign_in: ^6.1.0
+  flutter_facebook_auth: ^7.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/google.png
+    - assets/facebook.png
+    - assets/anh.png
